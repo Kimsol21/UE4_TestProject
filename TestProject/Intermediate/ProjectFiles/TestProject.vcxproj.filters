@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7FE48151-02D0-4E9B-8AC4-635FC82B5DDC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{973CEB2B-10C2-464D-B216-48921170AC2F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestProject">
+      <UniqueIdentifier>{C161D50F-B884-4BA4-A907-AA826CC29B11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestProject\MyAnimInstance.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyAnimInstance.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\MyCharacter.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyCharacter.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\MyGameModeBase.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyGameModeBase.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TestProject\TestProject.Build.cs">
+      <Filter>Source\TestProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestProject\TestProject.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\TestProject.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\TestProjectGameModeBase.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\TestProjectGameModeBase.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
