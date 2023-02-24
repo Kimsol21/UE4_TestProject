@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TESTPROJECT_MyCharacter_generated_h
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_SPARSE_DATA
-#define TestProject_Source_TestProject_MyCharacter_h_12_RPC_WRAPPERS
-#define TestProject_Source_TestProject_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define TestProject_Source_TestProject_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define TestProject_Source_TestProject_MyCharacter_h_19_SPARSE_DATA
+#define TestProject_Source_TestProject_MyCharacter_h_19_RPC_WRAPPERS
+#define TestProject_Source_TestProject_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define TestProject_Source_TestProject_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_INCLASS \
+#define TestProject_Source_TestProject_MyCharacter_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define TestProject_Source_TestProject_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define TestProject_Source_TestProject_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyCharacter(AMyCharacter&&); \
@@ -58,28 +58,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyCharacter)
 
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET
-#define TestProject_Source_TestProject_MyCharacter_h_9_PROLOG
-#define TestProject_Source_TestProject_MyCharacter_h_12_GENERATED_BODY_LEGACY \
+#define TestProject_Source_TestProject_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MyAnim() { return STRUCT_OFFSET(AMyCharacter, MyAnim); }
+
+
+#define TestProject_Source_TestProject_MyCharacter_h_16_PROLOG
+#define TestProject_Source_TestProject_MyCharacter_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TestProject_Source_TestProject_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	TestProject_Source_TestProject_MyCharacter_h_12_SPARSE_DATA \
-	TestProject_Source_TestProject_MyCharacter_h_12_RPC_WRAPPERS \
-	TestProject_Source_TestProject_MyCharacter_h_12_INCLASS \
-	TestProject_Source_TestProject_MyCharacter_h_12_STANDARD_CONSTRUCTORS \
+	TestProject_Source_TestProject_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
+	TestProject_Source_TestProject_MyCharacter_h_19_SPARSE_DATA \
+	TestProject_Source_TestProject_MyCharacter_h_19_RPC_WRAPPERS \
+	TestProject_Source_TestProject_MyCharacter_h_19_INCLASS \
+	TestProject_Source_TestProject_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TestProject_Source_TestProject_MyCharacter_h_12_GENERATED_BODY \
+#define TestProject_Source_TestProject_MyCharacter_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TestProject_Source_TestProject_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	TestProject_Source_TestProject_MyCharacter_h_12_SPARSE_DATA \
-	TestProject_Source_TestProject_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	TestProject_Source_TestProject_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	TestProject_Source_TestProject_MyCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	TestProject_Source_TestProject_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
+	TestProject_Source_TestProject_MyCharacter_h_19_SPARSE_DATA \
+	TestProject_Source_TestProject_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	TestProject_Source_TestProject_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
+	TestProject_Source_TestProject_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

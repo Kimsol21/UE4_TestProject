@@ -36,7 +36,7 @@ public: \
 
 #define TestProject_Source_TestProject_MyAnimInstance_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UMyAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UMyAnimInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAnimInstance) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMyAnimInstance); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAnimInstance); \
@@ -48,8 +48,6 @@ public:
 
 
 #define TestProject_Source_TestProject_MyAnimInstance_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UMyAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMyAnimInstance(UMyAnimInstance&&); \
@@ -57,10 +55,13 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMyAnimInstance); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyAnimInstance); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyAnimInstance)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyAnimInstance)
 
 
-#define TestProject_Source_TestProject_MyAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET
+#define TestProject_Source_TestProject_MyAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ThrowMontage() { return STRUCT_OFFSET(UMyAnimInstance, ThrowMontage); }
+
+
 #define TestProject_Source_TestProject_MyAnimInstance_h_12_PROLOG
 #define TestProject_Source_TestProject_MyAnimInstance_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

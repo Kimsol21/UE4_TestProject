@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TestProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7FE48151-02D0-4E9B-8AC4-635FC82B5DDC}</UniqueIdentifier>
+      <UniqueIdentifier>{E83C98E8-1FDC-473C-9BEA-24AF8D4E87A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TestProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{973CEB2B-10C2-464D-B216-48921170AC2F}</UniqueIdentifier>
+      <UniqueIdentifier>{7E58283E-B105-4126-9E20-413F4FA0C39B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,46 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TestProject">
-      <UniqueIdentifier>{C161D50F-B884-4BA4-A907-AA826CC29B11}</UniqueIdentifier>
+      <UniqueIdentifier>{BB1DA089-4D73-464A-8436-1812C5B2F92F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TestProject\CircularPlate.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\CircularPlate.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\CrossHUD.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\CrossHUD.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\GageWidget.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\GageWidget.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TestProject\MyAnimInstance.cpp">
       <Filter>Source\TestProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TestProject\MyAnimInstance.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\MyBall.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyBall.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\MyBallPool.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyBallPool.h">
       <Filter>Source\TestProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TestProject\MyCharacter.cpp">
@@ -42,6 +75,12 @@
       <Filter>Source\TestProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TestProject\MyGameModeBase.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\MyPlayerController.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\MyPlayerController.h">
       <Filter>Source\TestProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\TestProject\TestProject.Build.cs">
@@ -57,6 +96,18 @@
       <Filter>Source\TestProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TestProject\TestProjectGameModeBase.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\ThrowingTargetObject.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\ThrowingTargetObject.h">
+      <Filter>Source\TestProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestProject\WidgetGage.cpp">
+      <Filter>Source\TestProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestProject\WidgetGage.h">
       <Filter>Source\TestProject</Filter>
     </ClInclude>
   </ItemGroup>

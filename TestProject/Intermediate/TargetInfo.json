@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TestProject",
-			"Path": "C:\\Users\\ANY\\Documents\\Unreal Projects\\TestProject\\Source\\TestProject.Target.cs",
+			"Path": "C:\\Users\\ksol9\\Documents\\GitHub\\UE4_TestProject\\TestProject\\Source\\TestProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TestProjectEditor",
-			"Path": "C:\\Users\\ANY\\Documents\\Unreal Projects\\TestProject\\Source\\TestProjectEditor.Target.cs",
+			"Path": "C:\\Users\\ksol9\\Documents\\GitHub\\UE4_TestProject\\TestProject\\Source\\TestProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
