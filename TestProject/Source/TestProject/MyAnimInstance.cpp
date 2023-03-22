@@ -22,9 +22,12 @@ void UMyAnimInstance::PlayThrowMontage()
 
 void UMyAnimInstance::JumpToThrowMontageSection()
 {
-	if (Montage_IsPlaying(ThrowMontage))
+	//if (Montage_IsPlaying(ThrowMontage))
 	{
+		//Montage_Stop(0.68f, ThrowMontage);
+		//Montage_Play(ThrowMontage);
 		Montage_JumpToSection("Shoot", ThrowMontage);
+		//Montage_SetNextSection("Hold", "Shoot", ThrowMontage);
 	}
 	
 }
